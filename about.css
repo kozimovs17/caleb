@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SPoppins&display=swap');
+
+.about {
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    margin-top: 151px;
+    padding-left: 252px;
+    gap: 128px;
+}
+
+.about-item {
+    width: 649px;
+    height: 533px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.about-btn {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.about-btn button {
+    display: flex;
+    width: 157px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.about-btn a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about-item h6 {
+    color: #FCC028;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.about-item h1 {
+    color: rgba(0, 0, 0, 0.81);
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-item p {
+    width: 649px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 38px;
+}
+
+.about-info-frame {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-info-item h3 {
+    color: #FCC028;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.about-info-item h4 {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

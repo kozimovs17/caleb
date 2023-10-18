@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.portfolio {
+    width: 1440px;
+    height: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 158px;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.81);
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2 {
+    color: #FCC028;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-item {
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    margin-top: 118px;
+    position: relative;
+}
+
+.portfolio-item p {
+    color: #FCC028;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    right: 5px;
+}
