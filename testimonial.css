@@ -13,7 +13,7 @@
 
 h2 {
     color: #FCC028;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -22,7 +22,7 @@ h2 {
 
 h1 {
     color: rgba(0, 0, 0, 0.81);
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -50,7 +50,7 @@ h1 {
     width: 522px;
     color: rgba(0, 0, 0, 0.50);
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -60,7 +60,7 @@ h1 {
 
 .testimonial-item1 h3 {
     color: #000;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -69,7 +69,7 @@ h1 {
 
 .testimonial-item1 span {
     color: rgba(0, 0, 0, 0.50);
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 13px;
     font-style: normal;
     font-weight: 400;

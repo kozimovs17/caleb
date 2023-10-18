@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.clients {
+    width: 1440px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 41px;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.81);
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2 {
+    color: #FCC028;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.clients-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 95px;
+}
