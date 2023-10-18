@@ -1,2 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.testimonial {
+    width: 1440px;
+    height: 587px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 83px;
+    position: relative;
+}
+
+h2 {
+    color: #FCC028;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.81);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.testimonial-item1 {
+    width: 790px;
+    height: 215px;
+    border-radius: 19.412px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(19, 23, 61, 0.10);
+    padding-top: 87px;
+    padding-left: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    position: absolute;
+    right: 172px;
+    bottom: 113px;
+}
+
+.testimonial-item1 p {
+    width: 522px;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.testimonial-item1 h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.testimonial-item1 span {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.testimonial-back1 {
+    width: 654px;
+    height: 204px;
+    background: #FFF1FF;
+    position: absolute;
+    left: 2px;
+    top: 202px;
+    z-index: -1;
+}
+
+.testimonial-arrow {
+    width: 212px;
+    height: 90px;
+    border-radius: 10px;
+    background: #FCC028;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 131px;
+    left: 334px;
+}
+
+.testimonial-item2 {
+    position: absolute;
+    right: 100px;
+    top: 204px;
+    z-index: -9;
+}
+
+.testimonial-ellips {
+    position: absolute;
+    top: 215px;
+    right: 527px;
+}
+
+.testimonial-l{
+    position: absolute;
+    top: 259px;
+    left: 517px;
+}
+
+.testimonial-r{
+    position: absolute;
+    bottom: 113px;
+    right: 226px;
+}
