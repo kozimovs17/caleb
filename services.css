@@ -61,3 +61,28 @@ h3 {
     font-weight: 400;
     line-height: normal;
 }
+
+@media(max-width: 600px) {
+    .services {
+        width: 335px;
+        height: auto;
+        padding-top: 100px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .services-item {
+        margin-top: 100px;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .services-frame p {
+        font-size: 12px;
+    }
+
+    .services img{
+        width: 335px;
+    }
+}

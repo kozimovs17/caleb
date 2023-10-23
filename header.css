@@ -356,4 +356,72 @@ button {
         height: calc(100vh - 50px);
         overflow-y: auto;
     }
+
+    .header-section {
+        width: 335px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 280px;
+        position: relative;
+    }
+
+    .header-item {
+        align-items: center;
+    }
+
+    .header-item h6 {
+        font-size: 12px;
+    }
+
+    .header-item h1 {
+        width: auto;
+        height: auto;
+        align-items: center;
+        font-size: 24px;
+    }
+
+    .header-item p {
+        font-size: 16px;
+    }
+
+    .header-item span {
+        width: 335px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+    .header-btn button {
+        width: auto;
+        font-size: 12px;
+    }
+
+    .header-btn a {
+        font-size: 12px;
+    }
+
+    .section-img {
+        width: 335px;
+    }
+
+    .header-item2 {
+        width: 300px;
+        position: absolute;
+        bottom: -123px;
+        left: -30px;
+
+    }
+
+    .header-item2-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.7px;
+    }
+
+    .header-item2 h4 {
+        width: 290px;
+    }
 }

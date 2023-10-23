@@ -35,3 +35,24 @@ h2 {
     gap: 150px;
     margin-top: 95px;
 }
+
+@media(max-width: 600px){
+    .clients {
+        width: 335px;
+        height: auto;
+        padding-top: 41px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    .clients-item {
+        flex-direction: column;
+        gap: 100px;
+    }
+}

@@ -116,3 +116,52 @@
     font-weight: 400;
     line-height: normal;
 }
+
+@media(max-width: 600px){
+    .about {
+        width: 335px;
+        height: auto;
+        flex-direction: column-reverse;
+        margin-top: 351px;
+        padding-left: 0px;
+        gap: 50px;
+    }
+    
+    .about-item {
+        width: 335px;
+        height: auto;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .about-btn button {
+        width: auto;
+        font-size: 12px;
+    }
+    
+    .about-btn a {
+        font-size: 12px;
+    }
+    
+    .about-item h6 {
+        font-size: 16px;
+    }
+    
+    .about-item h1 {
+        font-size: 24px;
+    }
+    
+    .about-item p {
+        width: 330px;
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .about-info-item h3 {
+        font-size: 14px;
+    }
+    
+    .about-info-item h4 {
+        font-size: 12px;
+    }
+}

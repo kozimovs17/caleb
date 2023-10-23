@@ -28,6 +28,13 @@ h1 {
     line-height: normal;
 }
 
+.study-item2{
+    display: flex;
+    align-items: center;
+    gap: 74px;
+    margin-top: 82px;
+}
+
 .study-item {
     display: flex;
     align-items: center;
@@ -89,4 +96,64 @@ h1 {
     line-height: normal;
     background-color: transparent;
     margin-top: 30px;
+}
+
+@media(max-width: 600px){
+    .study {
+        width: 335px;
+        height: auto;
+        padding-top: 100px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    
+    .study-item {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 100px;
+    }
+
+    .study-item img{
+        width: 335px;
+    }
+    
+    .study-info {
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 13px;
+    }
+    
+    .study-info h3 {
+        font-size: 24px;
+    }
+    
+    .study-info h4 {
+        font-size: 26px;
+    }
+    
+    .study-info p {
+        width: 330px;
+        font-size: 12px;
+    }
+    
+    .study button {
+        width: auto;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .study-item2{
+        flex-direction: column-reverse;
+        gap: 50px;
+        margin-top: 100px;
+    }
+
+    .study-item2 img{
+        width: 335px;
+    }
 }
