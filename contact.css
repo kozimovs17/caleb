@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.contact {
+    width: 1440px;
+    height: 1535px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(236, 178, 46, 0.08) 0%, rgba(255, 255, 255, 0.11) 100%);
+    position: relative;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 174px;
+    left: 152px;
+}
+
+.contact-title h1 {
+    color: rgba(0, 0, 0, 0.81);
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-title p {
+    width: 493px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    width: 549px;
+    align-items: flex-start;
+    gap: 21px;
+    position: absolute;
+    top: 336px;
+    left: 96px;
+}
+
+.contact-icons-info {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.contact-icons-info {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 24.566px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ism {
+    position: absolute;
+    top: 89px;
+    left: 802px;
+    width: 537.247px;
+    height: 87.436px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    font-size: 25px;
+    padding-left: 36px;
+}
+
+.ism::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.adres {
+    position: absolute;
+    top: 195.87px;
+    left: 802px;
+    width: 537.247px;
+    height: 87.436px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    font-size: 25px;
+    padding-left: 36px;
+}
+
+.adres::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wbs {
+    position: absolute;
+    top: 302.73px;
+    left: 802px;
+    width: 537.247px;
+    height: 87.436px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    font-size: 25px;
+    padding-left: 36px;
+}
+
+.wbs::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.msg {
+    width: 537.247px;
+    height: 327.4px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    font-size: 25px;
+    padding-left: 36px;
+    padding-right: 25px;
+    position: absolute;
+    top: 409.6px;
+    left: 802px;
+}
