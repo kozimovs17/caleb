@@ -187,9 +187,13 @@ h1 {
     .testimonial-item2 {
         width: 50px;
         position: absolute;
-        right: -10px;
-        top: 300px;
+        right: 10px;
+        top: 350px;
         z-index: -9;
+    }
+
+    .testimonial-item2 img{
+        width: 100px;
     }
     
     .testimonial-ellips {
